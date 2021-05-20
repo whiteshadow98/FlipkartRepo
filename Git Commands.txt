@@ -1,4 +1,52 @@
-git --version : shows the current version of Git
-pwd    :  shows present working directory
-git init projectname : git project initialised with git directory
-git add filename : It will push the working directory into staging area
+git scm commands 
+
+
+git --version : shows current version
+
+cd ProjectFolder : gets to project directory
+pwd : shows current directory
+
+git init projectname :
+git project initialised with .git directory (master by default , default repo)
+
+
+git add filename: adds file to staging area
+
+git status : shows staged files
+
+git commit -m "message" : Commits to the repo
+
+git log : shows logs of all previous commits
+
+git show 
+
+
+To move a file : 
+git mv source destination 
+
+You need to commit after moving/removing/changing files
+
+To remove a file:
+git rm filename
+
+Check with git status and then commit.
+
+
+Remote Repo Link :
+https://github.com/gurseerat17/FlipkartRepository.git
+
+
+$ git remote add origin https://github.com/gurseerat17/FlipkartRepository.git
+
+Asks fro Authentication: enter username and password
+
+Reset :
+git remote set-url origin https://github.com/gurseerat17/FlipkartRepository.git
+
+git push origin master
+
+
+
+
+git remote set-url origin "https://dbdncb"
+---> Used for resetting url
