@@ -1,0 +1,4 @@
+git --version : shows the current version of Git
+pwd    :  shows present working directory
+git init projectname : git project initialised with git directory
+git add filename : It will push the working directory into staging area
